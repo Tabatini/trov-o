@@ -1,0 +1,25 @@
+.trovão-app{
+  display: flex;
+  min-height: 100vh;
+}
+
+.trovão-main{
+  display: flex;
+  flex-direction: column;
+}
+
+.trovão-content{
+  padding: 40px;
+}
+
+.section-title{
+  margin-bottom: 25px;
+  border-left: 4px solid red;
+  padding-left: 15px;
+}
+
+.trovão-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
