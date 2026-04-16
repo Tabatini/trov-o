@@ -16,19 +16,34 @@
     display: flex;
     align-items: center;
     gap: 12px;
-    padding: 12px;
-    color: #cbd5e1; 
-    border-radius: 8px;
+    padding: 12px 14px;
+    color: #94a3b8;
+    border-radius: 10px;
     cursor: pointer;
-    transition: 0.3s;
+
+    background: transparent;
+    border: 1px solid transparent;
+
+    transition: all 0.25s ease;
 }
+
 
 .nav-item:hover{
-    background-color: #1e293b;
+    background: linear-gradient(90deg, rgba(56,189,248,0.08), transparent);
     color: #38bdf8;
+    border: 1px solid rgba(56,189,248,0.2);
+    transform: translateX(4px);
 }
 
+
 .nav-item.active{
-    background-color: #2563eb; 
-    color: white;
+    background: linear-gradient(90deg, #2563eb, #1e40af);
+    color: #e0f2fe;
+    box-shadow: 0 6px 14px rgba(37, 99, 235, 0.35);
+    border: 1px solid rgba(56,189,248,0.25);
+}
+
+
+.nav-item svg{
+    opacity: 0.9;
 }
